@@ -1,32 +1,34 @@
-# MDT Microsoft binaries mirror (Binaries 8456)
+# Unofficial Microsoft Deployment Toolkit 8456 (MDT 8456) Binary Download Mirror
 
-Ce dépôt GitHub a été créé pour pallier la suppression par Microsoft des liens de téléchargement directs pour certains composants essentiels de **Microsoft Deployment Toolkit (MDT)**, et plus spécifiquement pour la version **8456**.
+Microsoft has chosen to remove the download links for MDT 8456, a decision I disagree with. [https://github.com/loannvnrr](@Github/loannvnrr) was kind enough to post the binaries to GitHub.  This repository is a fork and english translation of that repo, and I have verified each of the  four binaries are digitally signed by Microsoft.
 
 ## 📝 Description
 
-Le fichier contenu dans ce dépôt est nécessaire pour l'installation ou la mise à jour de MDT. Suite au nettoyage des serveurs de téléchargement Microsoft, ce miroir permet aux administrateurs systèmes de continuer à déployer leurs images Windows sans interruption.
+The file contained in this repository is necessary for the installation or update of MDT. Following the cleanup of Microsoft download servers, this mirror allows system administrators to continue deploying their Windows images without interruption.
 
-## 📦 Contenu du dépôt
+## 📦 Repository Contents
 
-* **MicrosoftDeploymentToolkit_x64.msi** L'installeur principal pour MDT 8456.
+* **MicrosoftDeploymentToolkit_x64.msi** The main installer for MDT 8456.
 
-## 🚀 Installation rapide
+## 🚀 Quick Installation
 
-1. **Téléchargement** : Cliquez sur le fichier dans la liste ci-dessus, puis sur le bouton **Download**.
-2. **Installation** : Lancez le fichier `.msi` sur votre serveur de déploiement.
-3. **Configuration** : Suivez les étapes habituelles de configuration de votre Deployment Share.
+1. **Download**: Click on the file in the list above, then click the **Download** button.
+2. **Installation**: Run the `.msi` file on your deployment server.
+3. **Configuration**: Follow the usual steps to configure your Deployment Share.
 
 > [!IMPORTANT]
-> Assurez-vous d'avoir installé au préalable les versions compatibles d'**ADK (Assessment and Deployment Kit)** et du **WinPE Add-on** correspondant à votre version de Windows (généralement Windows 10/11).
+> Make sure you have previously installed the compatible versions of the **ADK (Assessment and Deployment Kit)** and the **WinPE Add-on** corresponding to your version of Windows (generally Windows 10/11).
 
-## ⚠️ Avertissement (Disclaimer)
+## ⚠️ Warning (Disclaimer)
 
-Ce dépôt est un miroir de courtoisie. 
-* Ce logiciel appartient à **Microsoft Corporation**.
-* Il est recommandé de vérifier l'empreinte numérique (Hash) du fichier pour garantir son intégrité avant installation.
-* L'utilisation de ce fichier reste sous votre entière responsabilité.
+This repository is a courtesy mirror.
 
-## 🛠️ Liens utiles
+* This software belongs to **Microsoft Corporation**.
+* It is recommended to verify the digital fingerprint (Hash) of the file to ensure its integrity before installation.
+* Use of this file remains entirely at your own risk.
+* This repository is not an official Microsoft download source.
 
-* [Documentation officielle Microsoft MDT](https://learn.microsoft.com/en-us/mem/configmgr/mdt/)
-* [Notes de version (Release Notes)](https://learn.microsoft.com/en-us/mem/configmgr/mdt/release-notes)
+## 🛠️ Useful Links
+
+* [Official Microsoft MDT Documentation](https://learn.microsoft.com/en-us/mem/configmgr/mdt/)
+* [Release Notes](https://learn.microsoft.com/en-us/mem/configmgr/mdt/release-notes)
